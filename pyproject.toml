@@ -1,0 +1,23 @@
+[project]
+name = "ai-assist"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ddgs>=9.6.0",
+    "duckduckgo-search>=8.1.1",
+    "httpx>=0.28.1",
+    "keyboard>=0.13.5",
+    "langchain-community>=0.3.30",
+    "livekit-agents[google,turn-detector]~=1.2",
+    "livekit-plugins-google>=1.2.12",
+    "livekit-plugins-noise-cancellation>=0.2.5",
+    "livekit-plugins-openai>=1.2.12",
+    "livekit-plugins-silero>=1.2.12",
+    "mem0ai>=0.1.118",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+    "sounddevice>=0.5.2",
+    "tavily-python>=0.7.12",
+]
